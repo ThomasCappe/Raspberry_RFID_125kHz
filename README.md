@@ -7,7 +7,7 @@ Branchement:
 Utilisation d'une GrovePi, le branchement du capteur Rfid est sur le port RPISER de la GrovePi, la led sur le port D3 de la GrovePi.
 
 Initialisation:
-installation de GrovePi : curl -kL dexterindustries.com/update_grovepi | bash
+installation de GrovePi : ''' curl -kL dexterindustries.com/update_grovepi | bash '''
 
 Erreur possible lors de l'utilisation:
 
