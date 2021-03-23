@@ -13,4 +13,4 @@ Erreur possible lors de l'utilisation:
 
 ![alt text](https://github.com/ThomasCappe/Raspberry_RFID_125kHz/blob/9f252e324406910a58d6b7846abd2699ed609ae1/image_error1.jpg?raw=true)
 
-Pour résoudre ce probléme utilisez la commande suivante : sudo systemctl stop serial-getty@USB0.service
+Pour résoudre ce probléme utilisez la commande suivante : sudo systemctl stop serial-getty@ttyS0.service
