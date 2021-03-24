@@ -18,6 +18,10 @@ curl -kL dexterindustries.com/update_grovepi | bash
 ```python
 git clone https://github.com/ThomasCappe/Raspberry_RFID_125kHz.git
 ```
+3.Lancer le programme
+```python
+sudo python2 RFID_Reader.py
+```
 
 Erreur possible lors de l'utilisation:
 
