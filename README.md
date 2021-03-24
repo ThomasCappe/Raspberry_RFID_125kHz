@@ -5,7 +5,7 @@ Allumage d'une led lorsque l'id correspond.
 
 Branchement:
 Utilisation avec GrovePi, le branchement du capteur Rfid est sur le port RPISER de la GrovePi, la led sur le port D3 de la GrovePi.
-Utilisation sans GrovePi, le branchement du capteur (RFID_125mHz -> Raspberry): Vin -> 5V ; GND -> GND ; RX -> RX ; TX -> TX
+Utilisation sans GrovePi, le branchement du capteur (RFID_125mHz -> Raspberry): Vcc -> 5V ; GND -> GND ; RX -> RX ; TX -> TX
 
 
 Initialisation:
