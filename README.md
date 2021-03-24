@@ -27,6 +27,4 @@ Pour résoudre ce probléme utilisez la commande suivante :
 ```python
 sudo systemctl stop serial-getty@ttyS0.service
 ```
-
-![alt text](https://github.com/ThomasCappe/Raspberry_RFID_125kHz/blob/5358fd666b5e124ec6cd88bf7660bc3ddba9dc99/Montage_1.jpg?raw=true)
 ![alt text](https://github.com/ThomasCappe/Raspberry_RFID_125kHz/blob/5358fd666b5e124ec6cd88bf7660bc3ddba9dc99/Montage.jpg?raw=true)
