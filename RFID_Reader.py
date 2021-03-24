@@ -21,6 +21,7 @@ while True:
         for Counter in range(12):
             read_byte=PortRF.read()
             ID = ID + str(read_byte)
+        print(ID)    
         if ID == Tag1:
             print ("matched")
             try:
