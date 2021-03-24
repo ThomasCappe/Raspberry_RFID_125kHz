@@ -29,8 +29,14 @@ sudo python2 RFID_Reader.py
 
 ## Erreur possible lors de l'utilisation:
 
-![alt text](https://github.com/ThomasCappe/Raspberry_RFID_125kHz/blob/9f252e324406910a58d6b7846abd2699ed609ae1/image_error1.jpg?raw=true)
-
+```python
+nano ^@^CTraceboack (most recent call last):
+  File "RFID_Reader.py", line 10, in <module>
+    read_byte = PortRF.read()
+  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line483, in read
+    ready, _, _ = select.sekect([self.fd, sekf.pipe_abort_read_r], [], [], timeout.time_left())
+KeyboardInterrupt
+```
 Pour résoudre ce probléme utilisez la commande suivante : 
 ```python
 sudo systemctl stop serial-getty@ttyS0.service
